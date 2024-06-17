@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generated Schedule</title>
+</head>
+<body>
+    <h1>Your Schedule</h1>
+    <ul>
+        {% for item in schedule %}
+            <li>{{ item.course }} - {{ item.time }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+    
